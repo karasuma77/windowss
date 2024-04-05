@@ -4,7 +4,7 @@ import pygetwindow as gw
 import win32api
 import win32gui,win32ui
 import ctypes
-import getwind
+import getwindow
 import PIL
 
 import time
@@ -57,7 +57,7 @@ def dictcontain(char,index,diction):
     
     return -1
 def main():
-    win_info = getwind.getwintitle()
+    win_info = getwindow.getwintitle()
     print(win_info[3])
     
     for i in range(0,len(win_info),1):
